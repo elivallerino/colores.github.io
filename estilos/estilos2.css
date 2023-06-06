@@ -1,0 +1,27 @@
+
+a:link{
+	display:block;/*bloque*/
+	width:20%;
+	height:23px;
+	float:left; /*para que una opcion quede al lado de la otra*/
+	background-color:lightblue;
+	text-align:center;
+	text-decoration:none;
+	font-family:arial, verdana, sans-serif;
+	color:#362860;
+	font-weight:bold;
+	margin:0px;
+	margin-top:10px;
+	padding-top:7px; /*espacio entre el borde de un elemento y su contenido*/
+	border-style:groove;
+	border-width:2px;
+	border-radius:5px;
+}
+a:hover{
+	background-color:#362860;
+	color:lightblue;
+}
+
+.op:link{
+	color:#a58fea;
+}

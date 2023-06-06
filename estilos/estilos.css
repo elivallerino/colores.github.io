@@ -1,0 +1,77 @@
+body
+{
+	font-family:arial, verdana, sans-serif;/*fuente*/
+	color:#195434; /*#104c31;*/
+	font-size:20px;/*tamaño de fuente*/
+	background-color:#f2dd8a;
+	
+}
+img{
+	display:block;
+	margin:auto;
+	margin-bottom:20px;
+	border-radius:30px;
+	border-style:outset;
+	border-color: #006699;
+}
+h1
+{
+	color:#a07724; /* color del texto en naranja */
+	text-align:center; /*alineación centrada*/
+	width:70%;
+	margin:auto;
+	border-bottom-style:dotted;
+	border-color:#104c31;
+	border-width:3px;
+	border-radius:20px;
+	font-size:25px;
+	background-color:white;
+	
+}
+
+ul{
+	color:#7a2a0f; /*#a07724;*/
+	margin-left:60px; 
+	line-height:30px; /*interlineado*/
+	
+}
+
+
+p 
+{
+	text-align:justify;/* alineación justificada */
+	line-height:30px; /*interlineado*/
+	margin-left:50px; /* todos los margenes de 50 pixels */
+	margin-right:50px;
+}
+
+
+
+
+.a:link /*apariencia de los links cuando no están visitados*/
+{
+	color:#fff;
+	background-color:#5b3209;
+	text-decoration:none; /*sin subrayado*/
+	border-top-left-radius:5px;
+    border-bottom-right-radius:5px;
+	
+}
+
+.a:hover /*cuando le paso el mouse por encima*/
+{
+  color:#fff;
+  background-color:#600354; 
+  /*text-decoration:underline;/*subrayado*/
+  border-left-style:solid;/*estilo del borde sup.*/
+  border-top-style:solid;/*estilo del borde inf*/
+  border-color:red;
+  border-width:2px;
+  font-size:21px;
+  
+}
+.a:visited /*cuando el link fue visitado*/
+{
+  color:#000;
+  background-color:#ebef9b; 
+}
